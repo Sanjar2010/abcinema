@@ -15,6 +15,7 @@ const Register = () => {
   <div className="input_container">
     <label className="input_label" htmlFor="email_field">
       Email
+      
     </label>
     <svg
       fill="none"

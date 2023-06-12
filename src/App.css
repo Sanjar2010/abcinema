@@ -1,8 +1,0 @@
-.div{
-    display: grid;
-  grid-template-rows:auto auto auto; 
-  grid-template-columns:auto auto auto auto ;
-  align-content: center;
-  justify-items: center;
-  grid-row-gap: 100px;
-}

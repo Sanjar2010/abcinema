@@ -29,3 +29,10 @@ function App() {
 export default App;
 
 
+// echo "# abcinema" >> README.md
+// git init
+// git add README.md
+// git commit -m "first commit"
+// git branch -M main
+// git remote add origin https://github.com/Sanjar2010/abcinema.git
+// git push -u origin main
