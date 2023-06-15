@@ -1,20 +1,16 @@
-import React from 'react'; 
-
-import '../Home/Home.scss' 
-
-import img from "../../assests/images/img1.jpeg";
-import img2 from '../../assests/images/img2.jpeg';
-import img3 from "../../assests/images/img3.jpeg";
-import img4 from "../../assests/images/img4.jpeg";
-import img5 from "../../assests/images/img5.jpeg";
-import img6 from "../../assests/images/img6.jpeg";
-import img7 from '../../assests/images/img7.jpeg';
-import img8 from '../../assests/images/img8.jpeg';
-import img9 from '../../assests/images/img9.jpeg';
-import img10 from '../../assests/images/img10.jpeg';
+import React from 'react';
+import img from "../../assests/images/img13.jpeg";
+import img2 from '../../assests/images/img14.jpeg';
+import img3 from "../../assests/images/img15.jpeg";
+import img4 from "../../assests/images/img16.jpeg";
+import img5 from "../../assests/images/img17.jpeg";
+import img6 from "../../assests/images/img18.jpeg";
+import img7 from '../../assests/images/img19.jpeg';
+import img8 from '../../assests/images/img20.jpeg';
+import img9 from '../../assests/images/img21.webp';
+import img10 from '../../assests/images/img22.jpeg';
 import img11 from '../../assests/images/img11.jpeg';
-import img12 from '../../assests/images/img12.jpeg';
-
+import img12 from '../../assests/images/img8.jpeg';
 const films = [ 
    
     { 
@@ -49,21 +45,19 @@ const films = [
         name5:'Тетрадь Смерти',
         name6:'Миньоны',
         name7:'Шерлок Холмс',
-        name8:'Тупой И Еще Тупее',
+        name8:'Человек паук',
         name9:'Мстители',
         name10:'Аватар',
         name11:'Один Дома',
-        name12:'Человек паук',
+        name12:' Тупой И Еще Тупее',
 
         year:'16+'
         
     }
-
- 
-] 
- 
-const Home = () => { 
-    return ( 
+]
+const Comedy = () => {
+    
+    return (
         films.map((i) => { 
             return( 
 
@@ -72,7 +66,7 @@ const Home = () => {
 
                             // 1
                             <div className='home-cont'>
-                                <h1 className='home-title'>Лучшие Фильмы</h1>
+                                <h1 className='home-title'>Комедии</h1>
                <div className='home-container'>
                 <div className='home-box'> 
                 <h1>{i.h1}</h1>
@@ -269,8 +263,8 @@ const Home = () => {
 
                 
             ) 
-        }) 
-    ) 
-} 
- 
-export default Home;
+        })
+    );
+}
+
+export default Comedy;
