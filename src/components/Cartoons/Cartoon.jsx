@@ -1,16 +1,16 @@
 import React from 'react';
-import img from "../../assests/images/img13.jpeg";
-import img2 from '../../assests/images/img14.jpeg';
-import img3 from "../../assests/images/img15.jpeg";
-import img4 from "../../assests/images/img16.jpeg";
-import img5 from "../../assests/images/img17.jpeg";
-import img6 from "../../assests/images/img18.jpeg";
-import img7 from '../../assests/images/img19.jpeg';
-import img8 from '../../assests/images/img20.jpeg';
-import img9 from '../../assests/images/img21.webp';
-import img10 from '../../assests/images/img22.jpeg';
-import img11 from '../../assests/images/img11.jpeg';
-import img12 from '../../assests/images/img8.jpeg';
+import img from "../../assests/images/img23.jpeg";
+import img2 from '../../assests/images/img24.jpeg';
+import img3 from "../../assests/images/img25.jpeg";
+import img4 from "../../assests/images/img26.jpeg";
+import img5 from "../../assests/images/img27.jpeg";
+import img6 from "../../assests/images/img28.jpeg";
+import img7 from '../../assests/images/img29.jpeg';
+import img8 from '../../assests/images/img30.jpeg';
+import img9 from '../../assests/images/img31.jpeg';
+import img10 from '../../assests/images/img32.jpeg';
+import img11 from '../../assests/images/img33.jpeg';
+import img12 from '../../assests/images/img34.jpeg';
 const films = [ 
    
     { 
@@ -38,18 +38,18 @@ const films = [
         img10:img10,
         img11:img11,
         img12:img12,
-        name:'Гарри Поттер', 
-        name2:'Властелин Колец',
-        name3:'Форсаж',
-        name4:'Зеленая Миля',
-        name5:'Тетрадь Смерти',
-        name6:'Миньоны',
-        name7:'Шерлок Холмс',
-        name8:'Человек паук',
-        name9:'Мстители',
-        name10:'Аватар',
-        name11:'Один Дома',
-        name12:' Тупой И Еще Тупее',
+        name:'История Игрушек', 
+        name2:'Король Лев',
+        name3:'Холодное Сердце',
+        name4:'Красавица и Чудовище',
+        name5:'Супер Семейка 2',
+        name6:'В Поисках Немо',
+        name7:'Тайна Коко',
+        name8:'Мадагаскаар',
+        name9:'Кунг-Фу Панда',
+        name10:'Ледниковый Период',
+        name11:'Кот в Сапогах',
+        name12:'Босс-Молокосос',
 
         year:'16+'
         

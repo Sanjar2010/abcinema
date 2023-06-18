@@ -12,6 +12,7 @@ import Comedy from './components/Comedy/Comedy';
 import Cartoon from './components/Cartoons/Cartoon';
 import Horror from './components/Horror/Horror';
 import AdminPage from './components/AdminPage/AdminPage';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -28,9 +29,11 @@ function App() {
       <Route path='/horror' element={<Horror/>}/>
       <Route path='/admin' element={<AdminPage/>}/>
     </Routes>
+    <Footer/>
     </>
   );
 }
+
 
 export default App;
 // echo "# abcinema" >> README.md
