@@ -13,6 +13,9 @@ import Cartoon from './components/Cartoons/Cartoon';
 import Horror from './components/Horror/Horror';
 import AdminPage from './components/AdminPage/AdminPage';
 import Footer from './components/Footer/Footer';
+import HarryPotter from './components/Home/HarryPotter.jsx/HarryPotter';
+import LordOfRing from './components/Home/LordOfRing/LordOfRing';
+import Forsaj from './components/Home/Forsaj/Forsaj';
 
 function App() {
   return (
@@ -28,6 +31,11 @@ function App() {
       <Route path='/cartoon' element={<Cartoon/>}/>
       <Route path='/horror' element={<Horror/>}/>
       <Route path='/admin' element={<AdminPage/>}/>
+      <Route path='/harrypotter' element={<HarryPotter/>}/>
+      <Route path='/lordofring' element={<LordOfRing/>}/>
+      <Route path='/forsaj' element={<Forsaj/>}/>
+
+
     </Routes>
     <Footer/>
     </>

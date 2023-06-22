@@ -1,4 +1,5 @@
 import React from 'react'; 
+import {Link} from 'react-router-dom'
 
 import '../Home/Home.scss' 
 
@@ -80,7 +81,7 @@ const Home = () => {
                         <img className='img' src={i.img} alt="" />
                         <div className='card-box' >
                             <nav className='card-nav'>
-                      <a href='https://youtu.be/AFwrmkAHEk4'><p className='text'>{i.name}</p></a>
+                   <Link to='/harrypotter'>   <p className='text'>{i.name}</p></Link>     
                             </nav>
                             <nav className='home-nav'>
                         <p className='text'>({i.year})</p> 
@@ -96,7 +97,7 @@ const Home = () => {
                         <img className='img' src={i.img2} alt="" />
                         <div className='card-box' >
                             <nav className='card-nav'>
-                            <a href='https://youtu.be/RNksw9VU2BQ'><p className='text'>{i.name2}</p></a>
+                                <Link to='/lordofring'><p className='text'>{i.name2}</p></Link>
                             </nav>
                             <nav className='home-nav'>
                         <p className='text'>({i.year})</p> 
@@ -112,7 +113,8 @@ const Home = () => {
                         <img className='img' src={i.img3} alt="" />
                         <div className='card-box' >
                             <nav className='card-nav'>
-                            <a href='https://youtu.be/arwlt8fK_pc'><p className='text'>{i.name3}</p></a>
+                            
+                                    <Link to='/forsaj'><p className='text'>{i.name3}</p></Link>
                             </nav>
                             <nav className='home-nav'>
                         <p className='text'>({i.year})</p> 
