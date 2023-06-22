@@ -21,7 +21,6 @@ const BurgerMenu = () => {
       <li><a class="menu__item" href="#">Драмы</a></li>
       <li><a class="menu__item" href="#">Спортивные</a></li>
       <li><a class="menu__item" href="#">Боевики</a></li>
-      <li><a class="menu__item" href="#">Боевики</a></li>
       <li><a class="menu__item" href="#">Приключения</a></li>
 
     </ul>
